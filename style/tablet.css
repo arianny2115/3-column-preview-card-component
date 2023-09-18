@@ -1,0 +1,18 @@
+main {
+   display: grid;
+   grid-template-columns: 2fr .5fr .5fr 2fr;
+   grid-template-rows: .5fr .5fr;
+   grid-template-areas: 
+   ". suv sed ."
+   ". lux lux .";
+
+}
+section#luxury{
+    grid-area: lux;
+}
+section#sedans {
+    grid-area: sed;
+}
+section#suvs {
+    grid-area: suv;
+}
